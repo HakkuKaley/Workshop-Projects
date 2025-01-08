@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        console.log("Hello World!")
+        let employee= {
+            name: "ram",
+            age: 17,
+            college: "GMC",
+            address: {
+                city: "Birtamod",
+                state: "Koshi",
+                country: "Nepal",
+            }
+        }
+        console.log(employee.name, employee.address.country)
+
+        function getAddress()
+        {
+            console.log("City:", employee.address.city, "State:", employee.address.state, "country:", employee.address.country)
+        }
+
+        getAddress()
+
+        let result=interestCalc();
+
+        function interestCalc()
+        {
+            let p=100 
+            let t=2
+            let r=10
+            let si=(p*t*r)/100
+            return si
+        }
+
+        console.log(result)
+    </script>
+    
+</body>
+</html>

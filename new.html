@@ -1,0 +1,12 @@
+<body>
+    <h1>This is new Site.</h1>
+    <button id="magic">New button</button>
+    <script>
+        const btnElm = document.querySelector('#magic');
+        btnElm.sddEventListener('click', () => {
+            const h1Elem = document.querySelector ('h1');
+            h1Elem.style.color='red';
+            h1Elem.style.fontSize = '50px';
+        });
+    </script>
+</body>
