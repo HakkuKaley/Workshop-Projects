@@ -1,0 +1,101 @@
+/* Global Styling */
+body {
+    background-color: #f0f8ff;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h1, h3 {
+    color: #003366;
+    font-weight: bold;
+  }
+  
+  /* Post Card Styling */
+  .card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    color: #0066cc;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  /* Buttons Styling */
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Comments & Todos Styling */
+  .list-group-item {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .list-group-item span {
+    font-size: 1rem;
+  }
+  
+  /* Task Status Badge */
+  .badge {
+    font-size: 0.9rem;
+    border-radius: 15px;
+    padding: 5px 10px;
+  }
+  
+  /* Loading Indicator */
+  #loading {
+    display: none;
+    font-size: 1.5rem;
+    color: #0066cc;
+  }
+  
+  /* Form Input Styles */
+  input, textarea {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  /* Form Container */
+  .mb-4 {
+    margin-bottom: 30px;
+  }
+  
+  /* General Container Styling */
+  .container {
+    max-width: 900px;
+    margin-top: 50px;
+  }
+  
+  /* Posts Section */
+  #postsList {
+    margin-top: 30px;
+  }
+  
